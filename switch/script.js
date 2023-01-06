@@ -1,20 +1,12 @@
-let  nome = "wallace";
+let nome = "wallace";
 
-for(let i =0; i <10; i =i + 1) {
-
-    if( i===3){
-        nome = "eumesmo";
-    }
-
-    if( i== 5 && nome =="eumesmo"){
-        console.log("o nome é eumesmo, pode parar");
+switch(nome) {
+    case "wallace" :
+        console.log("o nome é wallace");
         break;
+    case "eumesmo":
+        console.log("o nome é eumesmo")
+        break
+    default:
+        console.log("o nome nao foi encontrado");
     }
-    console.log(i);
-
-
-
-
-
-
-}
