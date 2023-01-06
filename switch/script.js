@@ -10,3 +10,6 @@ switch(nome) {
     default:
         console.log("o nome nao foi encontrado");
     }
+
+    //teste teste
+    
