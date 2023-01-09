@@ -2,7 +2,7 @@ console.log(5 > 3 && 3 == 2);
 console.log(5 > 3 || 3 == 1);
 
 console.log(3 == 3 && "Wallace" == "Wallace");
-console.log("wallace" == "elaine" || false);
+console.log("wallace" == "eumesmo" || false);
 
 console.log(!(!(true && true)));
 
