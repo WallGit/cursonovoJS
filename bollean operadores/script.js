@@ -8,3 +8,8 @@ console.log(!(!(true && true)));
 
 console.log(true && true);
 console.log(false || false);
+
+
+//condiçao do OU (||)- umas das duas precisa ser verdadeira
+//condiçao do AND (&&)- comparativo caso um deles seja false a condiçao nao passa
+//condiçao do NOT (!)- inverte o valor logico atual se for true passa  a ser false
